@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "id": "teacher_001",
+      "firstName": "Sarah",
+      "lastName": "Johnson",
+      "role": "teacher",
+      "email": "sarah.johnson@visionariesschool.edu",
+      "phone": "+1234567891",
+      "profileImage": "https://images.pexels.com/photos/3727463/pexels-photo-3727463.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "department": "Mathematics",
+      "subjects": ["Algebra", "Geometry", "Calculus"]
+    },
+    {
+      "id": "teacher_002",
+      "firstName": "Michael",
+      "lastName": "Davis",
+      "role": "teacher",
+      "email": "michael.davis@visionariesschool.edu",
+      "phone": "+1234567892",
+      "profileImage": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "department": "Science",
+      "subjects": ["Physics", "Chemistry"]
+    },
+    {
+      "id": "student_001",
+      "firstName": "Emma",
+      "lastName": "Wilson",
+      "role": "student",
+      "email": "emma.wilson@student.visionariesschool.edu",
+      "profileImage": "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "grade": "Grade 10"
+    },
+    {
+      "id": "student_002",
+      "firstName": "James",
+      "lastName": "Brown",
+      "role": "student",
+      "email": "james.brown@student.visionariesschool.edu",
+      "profileImage": "https://images.pexels.com/photos/3769022/pexels-photo-3769022.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "grade": "Grade 11"
+    },
+    {
+      "id": "parent_001",
+      "firstName": "Lisa",
+      "lastName": "Wilson",
+      "role": "parent",
+      "email": "lisa.wilson@parent.visionariesschool.edu",
+      "phone": "+1234567893",
+      "profileImage": "https://images.pexels.com/photos/2379003/pexels-photo-2379003.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "parentOf": ["student_001"]
+    },
+    {
+      "id": "staff_001",
+      "firstName": "Robert",
+      "lastName": "Martinez",
+      "role": "staff",
+      "email": "robert.martinez@visionariesschool.edu",
+      "phone": "+1234567894",
+      "profileImage": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+      "department": "Administration"
+    },
+    {
+      "id": "driver_001",
+      "firstName": "Carlos",
+      "lastName": "Rodriguez",
+      "role": "driver",
+      "email": "carlos.rodriguez@visionariesschool.edu",
+      "phone": "+1234567895",
+      "profileImage": "https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+    }
+  ],
+  "total": 7,
+  "page": 1,
+  "limit": 50,
+  "hasNext": false,
+  "hasPrev": false
+}

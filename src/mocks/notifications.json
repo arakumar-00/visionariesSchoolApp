@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": "notif_001",
+      "title": "New Assignment Posted",
+      "message": "Mathematics homework for Chapter 12 has been posted",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2025-01-08T08:00:00Z",
+      "actionUrl": "/assignments/math_ch12"
+    },
+    {
+      "id": "notif_002",
+      "title": "Payment Due Soon",
+      "message": "School fees payment due in 3 days",
+      "type": "warning",
+      "isRead": false,
+      "createdAt": "2025-01-07T10:30:00Z",
+      "actionUrl": "/payments/fees"
+    },
+    {
+      "id": "notif_003",
+      "title": "Event Reminder",
+      "message": "Parent-Teacher Conference tomorrow at 2 PM",
+      "type": "urgent",
+      "isRead": false,
+      "createdAt": "2025-01-07T18:00:00Z",
+      "actionUrl": "/events/ptc_2025"
+    },
+    {
+      "id": "notif_004",
+      "title": "Attendance Updated",
+      "message": "Your child's attendance has been updated",
+      "type": "success",
+      "isRead": true,
+      "createdAt": "2025-01-06T15:45:00Z"
+    },
+    {
+      "id": "notif_005",
+      "title": "Bus Route Change",
+      "message": "Temporary route change for Bus #12 this week",
+      "type": "warning",
+      "isRead": true,
+      "createdAt": "2025-01-05T07:30:00Z",
+      "actionUrl": "/transport/routes"
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 20,
+  "hasNext": false,
+  "hasPrev": false
+}

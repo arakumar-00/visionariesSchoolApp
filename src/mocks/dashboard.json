@@ -1,0 +1,85 @@
+{
+  "user": {
+    "id": "user_123",
+    "email": "john.teacher@visionariesschool.edu",
+    "firstName": "John",
+    "lastName": "Smith",
+    "role": "teacher",
+    "profileImage": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "phone": "+1234567890",
+    "createdAt": "2024-01-15T08:00:00Z",
+    "lastLoginAt": "2025-01-08T09:30:00Z"
+  },
+  "metrics": {
+    "totalStudents": 450,
+    "totalTeachers": 32,
+    "totalClasses": 18,
+    "attendanceRate": 94.2,
+    "upcomingEvents": 5
+  },
+  "wallet": {
+    "balance": 2850.75,
+    "lastTransaction": {
+      "amount": -125.00,
+      "description": "School lunch payment",
+      "date": "2025-01-07T14:30:00Z"
+    },
+    "pendingPayments": 2
+  },
+  "upcomingEvents": [
+    {
+      "id": "event_1",
+      "title": "Parent-Teacher Conference",
+      "description": "Quarterly review meetings with parents",
+      "date": "2025-01-15",
+      "time": "14:00",
+      "location": "Main Auditorium",
+      "type": "parent-meeting"
+    },
+    {
+      "id": "event_2",
+      "title": "Science Fair",
+      "description": "Annual science project presentations",
+      "date": "2025-01-22",
+      "time": "10:00",
+      "location": "Science Lab",
+      "type": "academic"
+    },
+    {
+      "id": "event_3",
+      "title": "Basketball Championship",
+      "description": "Inter-school basketball finals",
+      "date": "2025-01-25",
+      "time": "16:00",
+      "location": "Sports Complex",
+      "type": "sports"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "title": "Grade Submission Deadline",
+      "message": "Please submit all grades for Q2 by January 10th",
+      "type": "warning",
+      "isRead": false,
+      "createdAt": "2025-01-05T10:00:00Z",
+      "actionUrl": "/grades/submit"
+    },
+    {
+      "id": "notif_2",
+      "title": "Staff Meeting Tomorrow",
+      "message": "Monthly staff meeting at 3 PM in Conference Room A",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2025-01-07T16:30:00Z"
+    },
+    {
+      "id": "notif_3",
+      "title": "System Maintenance",
+      "message": "Scheduled maintenance on January 12th from 2-4 AM",
+      "type": "info",
+      "isRead": true,
+      "createdAt": "2025-01-03T09:00:00Z"
+    }
+  ]
+}
